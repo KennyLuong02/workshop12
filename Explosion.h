@@ -1,3 +1,5 @@
+#ifndef EXPLOSION_H
+#define EXPLOSION_H
 #include <iostream>
 #include "GameEntity.h"
 #include "Effect.h"
@@ -15,3 +17,4 @@ class Explosion: public GameEntity, Effect {
         
     
 };
+#endif

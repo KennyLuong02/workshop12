@@ -1,7 +1,7 @@
 #include <iostream>
 #include "GameEntity.h"
 #include "Effect.h"
-#include "Utils.h"
+// #include "Utils.h"
 
 using namespace std;
 
@@ -14,5 +14,9 @@ class A: public Effect {
 };
 
 int main() {
-
+    GameEntity game1 = GameEntity(1, 2, 'G');
+    A game2;
+    game2.apply(game1);
+    
+    return 0;
 }

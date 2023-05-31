@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Explosion::Explosion(): GameEntity::GameEntity() {};
+Explosion::Explosion(): GameEntity::GameEntity() {setType('E');};
 
 Explosion::Explosion(int x, int y, char e): GameEntity(x, y, 'E') {};
 

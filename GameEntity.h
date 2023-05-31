@@ -1,3 +1,5 @@
+#ifndef GAMEENTITY_H
+#define GAMEENTITY_H
 #include <iostream>
 #include <tuple>
 
@@ -20,3 +22,4 @@ class GameEntity {
 
 
 };
+#endif

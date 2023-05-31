@@ -1,3 +1,5 @@
+#ifndef MINE_H
+#define MINE_H
 #include <iostream>
 #include "GameEntity.h"
 #include "Explosion.h"
@@ -15,3 +17,4 @@ class Mine: public GameEntity {
         Explosion explosion;
         
 };
+#endif
